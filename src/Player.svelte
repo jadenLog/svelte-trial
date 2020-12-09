@@ -8,9 +8,12 @@
 
 <style>
     div {
-        max-width: 600px;
-        margin: 0 auto;
         border: 1px solid gray;
+        margin: 0 auto 10px auto;
+        max-width: 600px;
+    }
+    div:last-child {
+        margin-bottom: 0px;
     }
     h1 {
         font-weight: bold;

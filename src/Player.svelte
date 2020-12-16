@@ -6,14 +6,15 @@
     const subtractScore = () => { score -= 1; };
 </script>
 
-<style>
+<style lang="scss">
     div {
         border: 1px solid gray;
         margin: 0 auto 10px auto;
         max-width: 600px;
-    }
-    div:last-child {
-        margin-bottom: 0px;
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
     }
     h1 {
         font-weight: bold;

@@ -69,7 +69,7 @@
 
 <main>
 	<input aria-label="name" type="text" placeholder="name" value={newPlayer.name} on:change={handleNameChange}/>
-	<input aria-label="score" type="number" placeholder="score" value={newPlayer.name} on:change={handleScoreChange}/>
+	<input aria-label="score" type="number" placeholder="score" value={newPlayer.score} on:change={handleScoreChange}/>
 	<button type="button" on:click={handleAddPlayer}>Add Player</button>
 	{#each players as player}
 		<Player name={player.name} score={player.score} />
